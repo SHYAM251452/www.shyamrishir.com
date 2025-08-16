@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      width: 100%;
+      max-width: 360px;
+      text-align: center;
+      padding: 20px;
+    }
+    .card img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #4CAF50;
+    }
+    .card h2 {
+      margin: 15px 0 5px;
+      color: #333;
+      font-size: 22px;
+    }
+    .card p {
+      color: #666;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+    .buttons {
+      margin-top: 15px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+    .buttons a {
+      flex: 1 1 100px;
+      text-decoration: none;
+      color: #fff;
+      background: #4CAF50;
+      padding: 10px;
+      border-radius: 8px;
+      font-size: 14px;
+      transition: 0.3s;
+      text-align: center;
+    }
+    .buttons a:hover {
+      opacity: 0.9;
+    }
+    .buttons a.github { background: #333; }
+    .buttons a.linkedin { background: #0077B5; }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <!-- 👇 Your uploaded photo -->
+    <img src="myphoto.jpg" alt="Shyam Rishi">
+    
+    <h2>Shyam Rishi R</h2>
+    <p>Engineering Student (AI & DS)<br>
+       M.A.M. School of Engineering<br>
+       Dream: Become an Airline Pilot ✈️</p>
+       
+    <div class="buttons">
+      <a href="mailto:yourmail@example.com">📧 Email</a>
+      <a href="https://github.com/yourusername" target="_blank" class="github">🐙 GitHub</a>
+      <a href="https://www.linkedin.com/in/yourusername" target="_blank" class="linkedin">🔗 LinkedIn</a>
+    </div>
+  </div>
+
+</body>
+</html>
